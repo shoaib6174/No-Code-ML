@@ -34,5 +34,3 @@ Part2: Getting Started with Auto ML & Azure Designer
       o How to select Algorithms.
 
 
-![image](https://user-images.githubusercontent.com/96424191/154658166-cba6bf20-5e1a-4673-ae11-9e181d01309d.png)
-
