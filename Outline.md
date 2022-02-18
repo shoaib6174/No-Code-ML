@@ -1,7 +1,11 @@
 "How to create an Azure account and get started with Auto ML & Azure Designer"
 
 Content 
+
 Part 1: Introduction to Machine Learning
+  + What is ML
+  + Types of ML algorithoms
+  + etc. 
 
 Part 2: Creating an Azure account 
   + What’s Azure Free Account 
