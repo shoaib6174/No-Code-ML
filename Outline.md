@@ -5,7 +5,7 @@ Content
 Part 1: Introduction to Machine Learning
   + What is ML
   + Types of ML algorithoms
-  + Describe a classification and a regression model with parameters
+  + Describe a Logistic Regressopm model with parameters
 
 
 Part 2: Creating an Azure account 
