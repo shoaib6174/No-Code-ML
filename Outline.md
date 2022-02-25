@@ -5,7 +5,8 @@ Content
 Part 1: Introduction to Machine Learning
   + What is ML
   + Types of ML algorithoms
-  + etc. 
+  + Describe a classification and a regression model with parameters
+
 
 Part 2: Creating an Azure account 
   + What’s Azure Free Account 
