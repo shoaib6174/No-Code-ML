@@ -7,9 +7,10 @@ Why do we need no code ML?
 
 No code Machine learning is a software development technique that allows anyone to create a machine learning model ‘without having coding experience before’ and provides easier and faster process of creating a prediction and lower cost. 
 
-[pic1. Classic ML process]
+![Classic](https://user-images.githubusercontent.com/96424191/158845695-3870728a-3265-4cdb-af28-8e882c68bb9f.png)
 
-[pic2. No code ML process]
+![AutoML](https://user-images.githubusercontent.com/96424191/158845615-468640e2-0e0b-41a2-bdba-8aaf595b8c3f.png)
+
 	
 As we can see, no code ml has a simpler process than traditional ml so anyone with no code experience can build their own machine learning model for their business or research and become a data-driven team that leads to enhance work performance, make a quicker and more accurate decision.
 	
