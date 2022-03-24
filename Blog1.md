@@ -44,8 +44,7 @@ There are two common and three main machine learning algorithms.
 
 As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
-	
-	1.2 Classification 
+1.2 Classification 
 
 2. Main algorithms
 
