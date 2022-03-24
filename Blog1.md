@@ -4,14 +4,13 @@ Importance of ML with application
 -
 
 Why do we need no code ML?
+-
+We've noticed that many students, teachers, and researchers want to use Machine Learning in their projects or research but lack the necessary coding and Machine Learning knowledge.
 
-No code Machine learning is a software development technique that allows anyone to create a machine learning model ‘without having coding experience before’ and provides easier and faster process of creating a prediction and lower cost. 
+We hope that by reading this blog series, they will gain a better understanding of the fundamentals of machine learning and how they can use it in their research without having to know how to code.
 
-![Classic](https://user-images.githubusercontent.com/96424191/158845695-3870728a-3265-4cdb-af28-8e882c68bb9f.png)
-![AutoML](https://user-images.githubusercontent.com/96424191/158845615-468640e2-0e0b-41a2-bdba-8aaf595b8c3f.png)
+We believe that this blog series will make it easier for researchers all over the world to learn ML.
 
-	
-As we can see, no code ml has a simpler process than traditional ml so anyone with no code experience can build their own machine learning model for their business or research and become a data-driven team that leads to enhance work performance, make a quicker and more accurate decision.
 	
 
 Why this blog series and the Structure of the series 
@@ -34,13 +33,34 @@ If we want our computer program to classify apple and lemon, we will create an m
 
 Types of ML algorithms
 -
-Commonly, Machine Learning can be divided into three main categories according to their purpose as the following: 
+There are two common and three main machine learning algorithms.
+1. Common algorithms
 
-•	Unsupervised Learning
+	1.1 Regression 
+	
+	1.2 Classification 
 
-•	Supervised Learning 
+2. Main algorithms
 
-•	Reinforcement Learning
+	2.1 Supervised Learning 
+		
+	For this algorithm, the model will learn from the data that we gave.
+		
+	For example, you’re the developer who wants to build a machine learning model that will predict types of drinks using color. 
+	There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orange.
+	From these data, Color will be the feature, and Types of drinks will be the label.
+	The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it 		to be Drink A. 
+	
+	Learn more: https://www.sciencedirect.com/topics/computer-science/supervised-learning
+
+	2.2 Unsupervised Learning 
+		
+	The model in this algorithm will learn from patterns. This type of method will enable the model to detect data patterns on its own.
+		
+	If you have data on student grades and hours of study, you can enter it into the model, which will work, and then turn it into a graph, 	with the x-axis and y-axis representing hours of study and grades, respectively. Each student's data will be plotted into the graph, and you will 	notice that there are clusters of data, which we can interpret. First, students with a high study hour tend to earn a good mark, whereas those with a 	lesser study hour tend to get a poorer grade.	
+		
+	Learn more: https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
+
 
 
 Logistic Regression model with parameters
