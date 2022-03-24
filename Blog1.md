@@ -61,7 +61,14 @@ There are two common and three main machine learning algorithms.
 		
 	Learn more: https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
 
-
+	
+	2.3 Reinforcement Learning 
+	
+	The model in this algorithm will learn from feedback.
+	
+	It's as if you took a photo of a chihuahua and a muffin and used it to teach a model to recognize chihuahuas and muffins. If you show the machine a snapshot of the muffin with the model saying "it's Chihuahua" and give it negative feedback, the system will learn from it and increase its accuracy. Finally, it can distinguish between chihuahua and muffin in the image.
+	Learn more: https://www.coursera.org/specializations/reinforcement-learning
+	
 
 Logistic Regression model with parameters
 -
