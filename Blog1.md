@@ -55,7 +55,9 @@ There are two common and three main machine learning algorithms.
 
 	2.2 Unsupervised Learning 
 		
-	The model in this algorithm will learn from patterns. This type of method will enable the model to detect data patterns on its own.
+	The model in this algorithm will learn from patterns. 
+	
+	This type of method will enable the model to detect data patterns on its own.
 		
 	If you have data on student grades and hours of study, you can enter it into the model, which will work, and then turn it into a graph, 	with the x-axis and y-axis representing hours of study and grades, respectively. Each student's data will be plotted into the graph, and you will 	notice that there are clusters of data, which we can interpret. First, students with a high study hour tend to earn a good mark, whereas those with a 	lesser study hour tend to get a poorer grade.	
 		
