@@ -102,4 +102,33 @@ The logistic model (or logit model) is used to model the probability of a certai
 
 A Classification model with parameters
 -
+A Classification model with parameters
+-
 
+In classification algorithms, there are three must-know parameter. 
+
+A Classification model with parameters
+-
+
+In classification algorithms, there are three must-know parameters. 
+
+1. C parameter for Support Vector Machine
+
+C parameter will create a boundary that separates classes and it controls the trade-off between smooth decision boundary and classifying training data point correctly. Larger C will cause larger variance but lower bias and margins
+
+[pic of c parameter]
+
+2. Max_depth for Decision Tree 
+
+The max_depth parameter is used to determine how depth is our decision tree will go, larger Max_depth will cause more spilt and higher accuracy of prediction.
+There are no standard that how large Max_depth should be, it depends on data.
+
+[pic of Max_depth]
+
+3. K_neighbor for K-Nearest Neighbour
+
+The concept of K-Nearest Neighbour assumes that "The similar thing is close to each other" or "Tell me your friends, and I'll tell you who you are".
+
+K_neighbor parameter is similar to Max_depth. It's used to determine the k value. If there are low k values, the model will be more sensitive to noise and changes but it will be more specific and more accurate. If there are high k values, the model will have lower accuracy but be less sensitive. 
+
+[pic of K_neighbor]
