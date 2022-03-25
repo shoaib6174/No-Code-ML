@@ -102,13 +102,6 @@ The logistic model (or logit model) is used to model the probability of a certai
 
 A Classification model with parameters
 -
-A Classification model with parameters
--
-
-In classification algorithms, there are three must-know parameter. 
-
-A Classification model with parameters
--
 
 In classification algorithms, there are three must-know parameters. 
 
