@@ -47,14 +47,12 @@ As shown in this diagram, data for shirt size (x-axis, independent value) and sh
 
 1.2 Classification
 
-Classification is an algorithm for categorizing data that we gave to the model. The program will learn from the given dataset or observation then classify these data into classes or groups such as apple or lemon, cat or dog, yes or no.
-
+Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
 [pic of classification example]
 
 The terms "regression" and "classification" are not interchangeable. First, we will predict a continuous quantity for linear regression, but a discrete class label for classification. The outputs differ as well; the result of linear regression is a value, whereas the result of classification is a non-value output, such as yes or no dog or cat.
 
 Learn more about common algorithms: https://www.javatpoint.com/regression-vs-classification-in-machine-learning
-
 
 2. Main algorithms
 
