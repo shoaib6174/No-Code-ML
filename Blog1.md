@@ -45,10 +45,11 @@ The model will use features associated with labels to predict the types of drink
 
 Furthermore, Supervised Learning can be devided into two sub categories.
 
-1.1 Regression 
+1.1 Regression
 
+Regression is an algorithm which is used to find relationship between two or more values such as independent and dependent valuable. The output of this algorithm will be real number or continuous value. The examples of problems that you can use regression to resolve are predict stock prices, age of person or even chance of raining.
 
-For classification, it can be divided into the following types:
+For Regression, it can be divided into the following types:
 - Linear Regression 
 - Neural Network Regression
 - Support Network Regression
