@@ -38,14 +38,24 @@ There are two common and three main machine learning algorithms.
 
 	1.1 Regression 
 	
-	Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
+Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
 	
-[pic of linear regression]
+![IMG_0848](https://user-images.githubusercontent.com/96424191/160168853-3d68e2af-f0c4-41dc-a11b-1be2b381b1b1.jpg)
 
 As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
 	
-	1.2 Classification 
+	1.2 Classification
+	
+Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
+	
+![IMG_0849](https://user-images.githubusercontent.com/96424191/160168837-bbca1fdc-b6d3-4726-af67-a07633ab1b84.jpg)
+
+
+The terms "Regression" and "Classification" are not interchangeable. First, we will predict a continuous quantity for linear regression, but a discrete class label for classification. The outputs differ as well; the result of linear regression is a value, whereas the result of classification is a non-value output, such as yes or no dog or cat.
+Learn more about common algorithms: https://www.javatpoint.com/regression-vs-classification-in-machine-learning
+![image](https://user-images.githubusercontent.com/96424191/160168777-939de470-4338-4d77-9769-3b0c5a4828c7.png)
+
 
 2. Main algorithms
 
