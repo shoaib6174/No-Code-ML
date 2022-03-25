@@ -97,33 +97,27 @@ It's as if you took a photo of a chihuahua and a muffin and used it to teach a m
 	
 Learn more: https://www.coursera.org/specializations/reinforcement-learning
 
-A Logistic Regression model with parameters
+Regression model with parameters
 -
 
-The logistic model (or logit model) is used to model the probability of a certain class or event taking place, such as the probability of a team winning, of a patient being healthy, etc. Each object being detected in the image would be assigned a probability between 0 and 1, with a sum of one.
+Linear regression
 
-A Classification model with parameters
+Classification model with parameters
 -
 
-In classification algorithms, there are three must-know parameters. 
+K-Nearest Neighbour
 
-1. C parameter for Support Vector Machine
+K-Nearest Neighbour is a simple algorithm which is used to classify data. Its concept is just like "The similar thing will be close to each other". This is the example that will help you more understand. 
 
-C parameter will create a boundary that separates classes and it controls the trade-off between smooth decision boundary and classifying training data point correctly. Larger C will cause larger variance but lower bias and margins
+For example, you have three groups of data on the graph then there are new point add to the graph, we have to find out that which one of these three group is our new point should be with. So, we have to find k nearest neighbour of the point.
 
-[pic of c parameter]
+![IMG_599E95E65959-1](https://user-images.githubusercontent.com/96424191/160191365-a5969eb6-4b01-466b-9ef6-160b0449d11e.jpeg)
 
-2. Max_depth for Decision Tree 
+To find the k value, first we have to calculate the distances between our given point and other points then sort the distance from the nearest to the furthest. 
 
-The max_depth parameter is used to determine how depth is our decision tree will go, larger Max_depth will cause more spilt and higher accuracy of prediction.
-There are no standard that how large Max_depth should be, it depends on data.
+![IMG_910C889AE8A6-1](https://user-images.githubusercontent.com/96424191/160191463-47bab16f-404d-45cc-b28d-bfffce3c2d1d.jpeg)
 
-[pic of Max_depth]
+After sorting these values, we will assign our new point to the class that most common among k nearest neighbor. Amount of k value also affect the model, smaller k value cause lower bias and higher variance and overfitting but larger k value casue higher bias, lower variance and underfitting. So, you should choose the k value that keep balance between large and small k value.
 
-3. K_neighbor for K-Nearest Neighbour
+![IMG_86B58E3A3F4E-1](https://user-images.githubusercontent.com/96424191/160191992-26b2b498-3207-434f-bb18-441233016143.jpeg)
 
-The concept of K-Nearest Neighbour assumes that "The similar thing is close to each other" or "Tell me your friends, and I'll tell you who you are".
-
-K_neighbor parameter is similar to Max_depth. It's used to determine the k value. If there are low k values, the model will be more sensitive to noise and changes but it will be more specific and more accurate. If there are high k values, the model will have lower accuracy but be less sensitive. 
-
-[pic of K_neighbor]
