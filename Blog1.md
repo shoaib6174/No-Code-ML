@@ -11,7 +11,6 @@ We hope that by reading this blog series, they will gain a better understanding 
 
 We believe that this blog series will make it easier for researchers all over the world to learn ML.
 
-	
 
 Why this blog series and the Structure of the series 
 -
@@ -44,7 +43,7 @@ There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orang
 From these data, Color will be the feature, and Types of drinks will be the label.
 The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it to be Drink A. 
 
-Furthermore, Supervised Learning can be devided into two subset.
+Furthermore, Supervised Learning can be devided into two sub categories.
 
 1.1 Regression 
 
