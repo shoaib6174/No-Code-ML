@@ -49,6 +49,15 @@ As shown in this diagram, data for shirt size (x-axis, independent value) and sh
 
 Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
 
+For classification, it can be divided into the following types:
+- K-Nearest Neighbours
+- Support Vector Machines
+- Kernel SVM
+- Naïve Bayes
+- Decision Tree Classification
+- Random Forest Classification
+
+
 ![IMG_0849](https://user-images.githubusercontent.com/96424191/160169107-7e3c7c40-6b2b-47b0-93b5-9cb76df5486f.jpg)
 
 The terms "regression" and "classification" are not interchangeable. First, we will predict a continuous quantity for linear regression, but a discrete class label for classification. The outputs differ as well; the result of linear regression is a value, whereas the result of classification is a non-value output, such as yes or no dog or cat.
