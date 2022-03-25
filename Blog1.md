@@ -47,11 +47,6 @@ Furthermore, Supervised Learning can be devided into two sub categories.
 
 1.1 Regression 
 
-Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
-
-![IMG_0848](https://user-images.githubusercontent.com/96424191/160169084-9e1c6f61-fac1-420a-9ed2-186d49b0cb63.jpg)
-
-As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
 For classification, it can be divided into the following types:
 - Linear Regression 
@@ -101,6 +96,12 @@ Regression model with parameters
 -
 
 Linear regression
+
+Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
+
+![IMG_0848](https://user-images.githubusercontent.com/96424191/160169084-9e1c6f61-fac1-420a-9ed2-186d49b0cb63.jpg)
+
+As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
 Classification model with parameters
 -
