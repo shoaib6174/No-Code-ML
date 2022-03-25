@@ -101,7 +101,7 @@ Linear Regression is the simplest form of machine learning algorithm to grasp; i
 
 ![IMG_0848](https://user-images.githubusercontent.com/96424191/160169084-9e1c6f61-fac1-420a-9ed2-186d49b0cb63.jpg)
 
-As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
+As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured.
 
 Classification model with parameters
 -
