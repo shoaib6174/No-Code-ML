@@ -87,6 +87,7 @@ It's as if you took a photo of a chihuahua and a muffin and used it to teach a m
 Learn more: https://www.coursera.org/specializations/reinforcement-learning
 
 A Logistic Regression model with parameters
+-
 
 The logistic model (or logit model) is used to model the probability of a certain class or event taking place, such as the probability of a team winning, of a patient being healthy, etc. Each object being detected in the image would be assigned a probability between 0 and 1, with a sum of one.
 
