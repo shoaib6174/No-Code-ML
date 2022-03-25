@@ -33,11 +33,20 @@ If we want our computer program to classify apple and lemon, we will create an m
 
 Types of ML algorithms
 -
-There are two common and three main machine learning algorithms.
+There are three main machine learning algorithms.
 
-1. Common algorithms
+1. Supervised Learning 
+		
+For this algorithm, the model will learn from the data that we gave.
+		
+For example, you’re the developer who wants to build a machine learning model that will predict types of drinks using color. 
+There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orange.
+From these data, Color will be the feature, and Types of drinks will be the label.
+The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it to be Drink A. 
 
-1.1 Linear Regression 
+Furthermore, Supervised Learning can be devided into two subset.
+
+1.1 Regression 
 
 Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
 
@@ -45,36 +54,30 @@ Linear Regression is the simplest form of machine learning algorithm to grasp; i
 
 As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
+For classification, it can be divided into the following types:
+- Linear Regression 
+- Neural Network Regression
+- Support Network Regression
+- Support vector Regression
+- Decision Tree Regression
+- Lasso Regression
+- Ridge Regression
+
 1.2 Classification
 
 Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
 
 For classification, it can be divided into the following types:
+- Naïve Bayes
 - K-Nearest Neighbours
 - Support Vector Machines
-- Kernel SVM
-- Naïve Bayes
 - Decision Tree Classification
 - Random Forest Classification
-
 
 ![IMG_0849](https://user-images.githubusercontent.com/96424191/160169107-7e3c7c40-6b2b-47b0-93b5-9cb76df5486f.jpg)
 
 The terms "regression" and "classification" are not interchangeable. First, we will predict a continuous quantity for linear regression, but a discrete class label for classification. The outputs differ as well; the result of linear regression is a value, whereas the result of classification is a non-value output, such as yes or no dog or cat.
 
-Learn more about common algorithms: https://www.javatpoint.com/regression-vs-classification-in-machine-learning
-
-2. Main algorithms
-
-2.1 Supervised Learning 
-		
-For this algorithm, the model will learn from the data that we gave.
-		
-For example, you’re the developer who wants to build a machine learning model that will predict types of drinks using color. 
-There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orange.
-From these data, Color will be the feature, and Types of drinks will be the label.
-The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it 	to be Drink A. 
-	
 Learn more: https://www.sciencedirect.com/topics/computer-science/supervised-learning
 
 2.2 Unsupervised Learning 
