@@ -36,7 +36,7 @@ Types of ML algorithms
 There are two common and three main machine learning algorithms.
 1. Common algorithms
 
-	1.1 Regression 
+1.1 Regression 
 	
 Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
 	
@@ -45,7 +45,7 @@ Linear Regression is the simplest form of machine learning algorithm to grasp; i
 As shown in this diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph, and the distance between points and the regression line is measured. We can also represent our regression line as a parameter.
 
 	
-	1.2 Classification
+1.2 Classification
 	
 Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
 	
