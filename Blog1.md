@@ -20,6 +20,10 @@ What is ML
 
 Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a computer program to learn and improve from data or experience.
 
+Machine learning is different from traditional program. 
+
+In traditional program, we have to put data and program into computer then it will produce an ouput, but if put data and output(result) into computer in order to create a program which can predict the output if they receive this kind of input.
+
 I will give you some example that will help you more understand. 
 
 Example:
@@ -37,6 +41,9 @@ Machine Learning concept is similar to how kids learn. For machine learning, we 
 After these processes, we will train the model, so the computer can distinguish cats and dogs according to their features.
 
 [computer process] 
+
+
+
 
 Types of ML algorithms
 -
