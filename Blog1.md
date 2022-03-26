@@ -18,17 +18,25 @@ Why this blog series and the Structure of the series
 What is ML 
 -
 
-Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a computer program to learn and improve from data or experience without writing long and complex code.
-For example, If we teach kids how apple and lemon look like and tell them to classify given apple and lemon pictures, they will observe attributes of the pictures and tell you which one is apple or lemon.
+Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a computer program to learn and improve from data or experience.
 
+I will give you some example that will help you more understand. 
 
-![Kids ](https://user-images.githubusercontent.com/96424191/158849328-c3a2104c-a443-4efe-9064-7a462a9d0263.png)
+Example:
 
-Computer program can do that too but it doesn’t use eyes to observe.
+Imagine that you are a teacher and a computer program is a kid and you want them to learn about fruits by using flashcards. Each flashcard has a picture of a lemon or apple on them.
 
-![Computer](https://user-images.githubusercontent.com/96424191/158849373-5f2a34cd-8ef2-44cb-87b7-7e8b8551d182.png)
+Now you teach them which one is apple and which one is lemon, the kids will learn about these two fruits by observing and remembering their attributes like color, size or shape then you shuffle the deck of lemon and apple photos after that you choose a card from the deck, it's a picture of lemon and ask them "What is on the card" but the kids said it was an apple. You know that's not the correct answer so you give them negative feedback and start to teach them again.
 
-If we want our computer program to classify apple and lemon, we will create an machine learning model us using data of apple and orange attributes such as color, shape and tastes then ‘clean and transform’ these data into ‘feature’ or the set of numbers. These features will be used to train a model and make predictions.
+After repeating these processes, teach/ try / give feedback, the kid gives you more accurate answer, and they are able to classify lemon and apple.
+
+[kid process]
+
+Machine Learning concept is similar to how kids learn. For machine learning, we have to give input data to the model (like Attribute of lemon and apple ) then it will turn these data into set of number or machine language (like kid's memory) we call these sets of number "Feature" and we will give them the correct answer by entering these answer in the numbers, we call these numbers "Lable". 
+
+After these processes, we will train the model, so the computer can distinguish cats and dogs according to their features.
+
+[computer process] 
 
 Types of ML algorithms
 -
