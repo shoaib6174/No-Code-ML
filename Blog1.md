@@ -5,11 +5,6 @@ Importance of ML with application
 
 Why do we need no code ML?
 -
-We've noticed that many students, teachers, and researchers want to use Machine Learning in their projects or research but lack the necessary coding and Machine Learning knowledge.
-
-We hope that by reading this blog series, they will gain a better understanding of the fundamentals of machine learning and how they can use it in their research without having to know how to code.
-
-We believe that this blog series will make it easier for researchers all over the world to learn ML.
 
 
 Why this blog series and the Structure of the series 
