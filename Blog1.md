@@ -22,7 +22,7 @@ Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a c
 
 Machine learning is different from traditional program. 
 
-In traditional program, we have to put data and program into computer then it will produce an ouput, but if put data and output(result) into computer in order to create a program which can predict the output if they receive this kind of input.
+In traditional program, we have to put data and program into computer then it will produce an ouput, but in machine learning we put data and output(result) into computer, in order to create a program which can predict the output if they receive this kind of input.
 
 I will give you some example that will help you more understand. 
 
