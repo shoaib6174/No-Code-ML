@@ -59,6 +59,7 @@ You can also use any dataset from **Sample Datasets**. Here is how you will do t
 </p>
 
 You can preview the data by right clicking on the dataset component in the canvas.
+<p align="center">
 <img alt="Preview Titanic Dataset"  width=70% src="https://user-images.githubusercontent.com/40586752/160237287-19806353-6706-4b5b-9538-555bf7b405a1.png" >
 </p>
 
@@ -66,14 +67,15 @@ You can preview the data by right clicking on the dataset component in the canva
 ## Data Processing
 AML Designer has several components for data processing. Hover your mouse pointer on each of them to know their function and you can also check documentation to Learn More.
 
-
+<p align="center">
 <img alt="Data Tramsformation Components"   src="https://user-images.githubusercontent.com/40586752/160237437-b16787c8-0cc4-4791-8a2f-84ed5c956aa8.png">
 </p>
 
 For our example, at first, we will use **Select Columns in Dataset** component. 
 -	Drag the **Select Columns in Dataset** component onto the canvas. Drop the component below the dataset component.
 -	Connect the **Titanic** dataset to the **Select Columns in Dataset** component. Drag from the dataset's output port, which is the small circle at the bottom of the dataset on the canvas, to the input port of **Select Columns in Dataset**, which is the small circle at the top of the component.
-
+-	
+<p align="center">
 <img alt="Connecting Components"   src="https://user-images.githubusercontent.com/40586752/160237625-4105b27c-2e07-4225-a635-c3a0a838d6f7.gif">
 </p>
 
@@ -83,7 +85,8 @@ For our example, at first, we will use **Select Columns in Dataset** component.
 	
 For this example, we have selected the following columns-
 
-<img alt="Selecting Columns"   src="https://user-images.githubusercontent.com/40586752/160237713-990794f1-dab1-479e-8e9a-51b697b06e8e.png">
+<p align="center">
+<img alt="Selecting Columns"   src="https://user-images.githubusercontent.com/40586752/160237840-e1bc71bb-bc75-4565-83be-89a1701f21b3.png">
 </p>
 
 We have also used the **Clean missing data** component. 
