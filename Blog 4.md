@@ -90,3 +90,92 @@ For this example, we have selected the following columns-
 </p>
 
 We have also used the **Clean missing data** component. 
+
+
+-	In the component palette to the left of the canvas, expand the section **Data Transformation**, and find the **Clean Missing Data ** component. 
+-	Drag the **Clean Missing Data** component to the pipeline canvas. 
+-	Connect it to the **Select Columns in Dataset ** component.
+-	Click the Clean Missing Data component and then select **Edit Column** from the component details pane.
+-	In the Columns to be cleaned window that appears, expand the drop-down menu next to **Include**. Select, **All columns ** and click **Save**. 
+-	Now in the component details pane to the right of the canvas, select **Remove entire row** under **Cleaning mode**.
+ 
+You can use the **Clean Missing Data ** component multiple times to add different cleaning mode for different columns.
+![clean missing data modes](https://user-images.githubusercontent.com/40586752/160238249-69eadc48-d4e1-47cf-be7c-2df06d9d8c2a.png)
+
+
+-	We have also used the **Normalize Data** component to transform our data. 
+-	Drag the **Normalize Data** component to the pipeline canvas. 
+-	Connect it to the output of **Clean Missing Data** component. 
+-	Then in the component details tab select **Transformation method** and **Columns to transform**. 
+For our example, we have selected **MinMax** as **Transformation method** and used in on **Age** column.
+ 
+ ![normalize data](https://user-images.githubusercontent.com/40586752/160238254-91a22cec-f905-497a-a5b4-7430455b30c9.png)
+
+Now we are done with data processing. The canvas will now look like this-
+  
+![upto data processing](https://user-images.githubusercontent.com/40586752/160238275-8af234a7-719e-4c58-bf7a-0791b8377a33.png)
+
+
+## Splitting Dataset
+
+For splitting the dataset, you will drag-and-drop **Split Data** component from **Data Transformation** section and connect it with the left port of **Normalize Data** component. Then In the component details pane to the right of the canvas, set the **Fraction of rows in the first output dataset** to 0.7. You don’t have to select any ratio for validation set. AML Designer will do that itself while training. 
+This 0.7 option splits 70 percent of the data to train the model and 30 percent for testing it. The 70 percent dataset will be accessible through the left output port. The remaining data will be available through the right output port.
+ 
+![split data](https://user-images.githubusercontent.com/40586752/160238279-16ae14ca-73b7-4033-a724-af9a170fbc7b.png)
+
+
+## Model Selection and Training
+AML Designer has some built in algorithms for you. In the component palette, expand **Machine Learning Algorithms**. This option displays several categories of components that you can use to initialize learning algorithms. You will select the algorithms that’s best suited for your problem. Our example is a classification problem. So we have chosen **Multiclass Logistic Regression** from **Classification Categories** of **Machine Learning Algorithms** section and dragged it onto the canvas. 
+Now for training the model-
+-	Drag-and-drop the **Train Model** component from **Module Training** section
+-	Connect the output of the **Multiclass Logistic Regression** component to the left input of the **Train Model ** component. 
+-	Also connect the training data output (left port) of the **Split Data** component to the right input of the **Train Model** component.
+![image](https://user-images.githubusercontent.com/40586752/160238293-6b7c74d0-eac9-46e4-a051-90a0c83ce3a0.png)
+
+Now you will select the label column as it is a supervised learning-
+-	Select the **Train Model ** component from **Model Training** section. 
+-	In the component details pane to the right of the canvas, select **Edit column ** selector. In the **Label column** dialog box, expand the drop-down menu and select **Column names**. 
+-	In the text box beside **Column names**, enter the name of the column which contains the labels that your model is going to predict.
+ For our example, we have entered **Survived**. Now click **Save**.
+ 
+
+## Evaluate Model
+For evaluating the model, you have to check how your model has done on the test dataset. For that, at first you have to score your model using **Score Model ** component. 
+-	Drag-and-drop **Train Model** component from **Model Training**  section onto the canvas below **Train Model**. 
+-	Connect the output of the **Train Model** component to the left input port of **Score Model**. 
+-	Connect the test data output (right port) of the **Split Data** component to the right input port of **Score Model**.
+Now to get the evaluation metrics, find the **Evaluate Model** component and drag the component to the pipeline canvas. Connect the output of the **Score Model** component to the left input of **Evaluate Model**. The final pipeline should look something like this-
+ 
+
+## Submitting The Pipeline
+A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. Before submitting the pipeline you have to specify compute target. For that- 
+-	Next to the pipeline name, select the **Gear icon** at the top of the canvas to open the **Settings** pane.
+-	In the **Settings** pane to the right of the canvas, select **Select compute target**.
+-	Enter a name for the compute resource and click **Save**
+It will take some time to create the compute target. Once the compute target is ready-
+-	Click on **Submit** at the top of the canvas.
+-	In the **Set up pipeline run** dialog box, select Create new.
+-	For **New experiment Name**, enter **Titanic** and then click **Submit**
+ 
+It will take few minutes for the pipeline to finish running. You can view run status and details at the top right of the canvas.
+
+## View scored labels
+
+After the run completes, you can view the results of the pipeline run. First, look at the predictions generated by the classification  model.
+Right-click the **Score Model ** component and select **Preview data** > **Scored dataset** to view its output.
+Here the Scored Labels column represents the prediction of the model for each row of the test dataset-
+ 
+
+## Evaluate models
+
+Use the **Evaluate Model** to see how well the trained model performed on the test dataset.
+Right-click the **Evaluate Model** component and select **Preview data** > **Evaluation results** to view its output.
+Here is the evaluation metrics for our experiment- 
+ 
+This is the output of your project. You can see how easily we have built a prediction model using AML Designer. Now you can also deploy this model by dragging and dropping some more components. We will not dive into that but if you interested to see check –
+https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-designer-automobile-price-deploy
+
+
+
+
+
