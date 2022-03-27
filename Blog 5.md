@@ -48,7 +48,9 @@ If you have a dataset registered in **Datasets** you can use that. Otherwise, yo
 -	Select **Browse files** from the **Browse** drop-down and choose the **titanic.csv** file on your local computer.
 -	Select **Next**
 -	On the **Settings and preview** form, Select **Next** if you don’t have any changes. It will look like this-
-<p align='center'>    <kbd> <img alt='Settings and preview’  width=70%  src=‘https://user-images.githubusercontent.com/40586752/160261612-51be1615-a6db-4fb9-9a47-d5d5bb48bc19.png' > </kbd>  </p>
+
+
+<p align='center'>    <kbd> <img alt='Settings and preview'  width=70%  src='https://user-images.githubusercontent.com/40586752/160261612-51be1615-a6db-4fb9-9a47-d5d5bb48bc19.png' > </kbd>  </p>
 
 -	On the **Schema** form, you can ignore any columns if you want. Here we decided not to include **PassengerId** and **Name** column by toggling the button in **Include** column. You can also change data types here. Once done select **Next**.
 <p align='center'>    <kbd> <img alt='Schema'  width=70% src='https://user-images.githubusercontent.com/40586752/160261614-f78e7bed-f896-46f7-9b4f-bd82d5d6b6e1.png' > </kbd>  </p>
@@ -79,9 +81,11 @@ In the **Configure Run** form-
 
 ### Select task and settings
 Here you have to select the task type for the experiment and additional configuration and featurization settings. Our task is a classification task, so select **Classification** in the ** Select task and settings** form. Now you can click **Next** but we want to play with and additional configuration and featurization settings.
-<p align='center'>    <kbd> <img alt='Select task and settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261626-22086ae5-0bd0-4361-a11c-abaafbfc84a7.png' > </kbd>  </p>
+
+<p align='center'>    <kbd> <img alt='Select task and settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261626-22086ae5-0bd0-4361-a11c-abaafbfc84a7.png'> </kbd>  </p>
+
 -	Select **View featurization settings**
-<p align='center'>    <kbd> <img alt='featurization settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261627-d9c0111a-dc3a-478a-af39-e4da16d14909.png' > </kbd>  </p>
+<p align='center'>    <kbd> <img alt='featurization settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261627-d9c0111a-dc3a-478a-af39-e4da16d14909.png'> </kbd>  </p>
 
 -	In the **Featurization** form, we can exclude columns, change feature type and imputation method. 
 
