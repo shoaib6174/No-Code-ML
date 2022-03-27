@@ -3,7 +3,7 @@ In the previous blog you have seen the steps involved in ML projects. In this bl
 
 Azure Machine Learning designer is a drag-and-drop interface used to train and deploy models in Azure Machine Learning. It has built-in modules/components for each of the steps mentioned in the previous blog. You can think of these components as LEGO blocks. You will drag the necessary components from the list of components and drop them on a blank canvas. Then you will arrange them in sequence by connecting the output port of one component to an input port of another. This sequence of componenets is called a pipeline. It will look like this- 
 <p align="center">
-<img alt="Complete Pipeline"  width=50% src="https://user-images.githubusercontent.com/40586752/160236520-3f8d5914-7733-45ef-a7df-5edb4e77729b.png"  >
+<img alt="Complete Pipeline"  style='border: 5px solid black' width=50% src="https://user-images.githubusercontent.com/40586752/160236520-3f8d5914-7733-45ef-a7df-5edb4e77729b.png"  >
 </p>
 
  You can say building this pipeline through drag-and-drop of modules is equivalent to coding. Once you have got this pipeline, you will submit it to a virtual machine/cluster. Then Azure Machine Learning will run the experiment for you and will return you the result. You will be able to see the metrics by clicking “Score Model” and “Evaluate Model” modules and your machine learning project will be done. You can also deploy this model by dragging and dropping few more modules. 
