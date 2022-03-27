@@ -2,10 +2,7 @@ Blog 1: Introduction
 -
 Importance of ML with application 
 -
-"Have you ever wondered if Ads or youtube suggest something we're interested in? or a song that we might like?"
 
-Nowadays,the technology has evolved a lot. Resulting in various useful technologies happened a lot and one of them is Machine Learning and its has spread across many industry. Machine Learning is used to solve problems and to improve many things such as stock market analysis, credit card fraud detection,
-or automatic cancer diagnosis.
 
 Why do we need no code ML?
 -
