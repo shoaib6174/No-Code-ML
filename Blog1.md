@@ -7,7 +7,7 @@ Machine learning makes life more easier because machine learning has helped us t
 
 Starting with general problem, if you look back to 5 years ago. In your email box there will be many spam e-mails contain viruses and ready to steal our data at any time. But for now, if we go check our email trash. we will see that are spam e-mails in it and we will find there are few spam email in our main inbox. This is the result of using machine learning to classify spam e-mails from General e-mail. It makes us more secure to use the Internet to send and receive important messages.
 
-For the larger scale of problem, we can use machine learning to predict disease outbreaks. It uses past and current epidemic data to predict the direction and pattern of infection. For example, Chinese e-commerce firm Alibaba has developed machine learning to detect 95% of the corona virus.
+For the larger scale of problem, we can use machine learning to predict disease outbreaks. It uses past and current epidemic data to predict the direction and pattern of infection. For example, Alibaba chinese e-commerce has developed machine learning to detect 95% of the corona virus.
 
 Now we know the benefits of machine learning, Why don't we start studying and apply machine learning to make the world better?
 
