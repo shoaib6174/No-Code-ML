@@ -2,10 +2,18 @@ Blog 1: Introduction
 -
 Importance of ML with application 
 -
+"Have you ever wondered if Ads or youtube suggest something we're interested in? or a song that we might like?"
+
+Nowadays,the technology has evolved a lot. Resulting in various useful technologies happened a lot and one of them is Machine Learning and its has spread across many industry. Machine Learning is used to solve problems and to improve many things such as stock market analysis, credit card fraud detection,
+or automatic cancer diagnosis.
 
 Why do we need no code ML?
 -
+Machine learning is prevalent now, there are needs to apply it as well. whether in business or even in research and there are many people who want to use machine learning for thier research or thier buisiness but they have no programming experience at all. We recognize these issues and writes this blog as a guide to one of the ways to access Machine Learning without coding or what we call "No code Machine Learning".
 
+No code Machine learning is easy to understand, simple, and accessible even without programming experience. No code machine learning has many advantages including taking less time to build a model, lower your project costs, easier to maintanace. 
+
+In this blog, you will learn about machine learning fundamentals including what machine learning is, how it works, machine learnign's basic algorithms, and how to apply machine learning in your projects without coding. Furthurmore, we also provide resources to help you to learn more about Machine Learning.
 
 Why this blog series and the Structure of the series 
 -
@@ -29,15 +37,14 @@ Now you teach them which one is apple and which one is lemon, the kids will lear
 
 After repeating these processes, teach/ try / give feedback, the kid gives you more accurate answer, and they are able to classify lemon and apple.
 
-[kid process]
+![IMG_80CB1B6EC584-1](https://user-images.githubusercontent.com/96424191/160280866-61026af9-7acd-40ef-9ae1-0fb72c3bdee5.jpeg)
 
-Machine Learning concept is similar to how kids learn. For machine learning, we have to give input data to the model (like Attribute of lemon and apple ) then it will turn these data into set of number or machine language (like kid's memory) we call these sets of number "Feature" and we will give them the correct answer by entering these answer in the numbers, we call these numbers "Lable". 
+Machine Learning concept is similar to how kids learn. For machine learning, we have to give input data to the model (like Attribute of lemon and apple ) then it will turn these data into set of number or machine language (like kid's memory) we call these sets of number "Features" and we will give them the correct answer by entering these answer in the numbers, we call these numbers "Lable". 
 
 After these processes, we will train the model, so the computer can distinguish cats and dogs according to their features.
 
-[computer process] 
 
-
+![IMG_1B8AA11720A2-1](https://user-images.githubusercontent.com/96424191/160281339-607cf81f-7132-4616-a2e4-80ee1e088994.jpeg)
 
 
 Types of ML algorithms
@@ -108,7 +115,7 @@ Regression model with parameters
 
 Linear regression
 
-Linear Regression is the simplest form of machine learning algorithm to grasp; it uses a xy graph and a straight line called the "Regression line" to attempt to explain the relationship between two variables.
+Linear Regression is the simplest form of machine learning algorithm. It analysis an independent variable which relate to independent value (y) and dependent value (x). The line which is showed in the graph is best fit line. The point of this algorithm is to find the relationship between independent and dependent value for continuous or numeric variables such as ages, price.
 
 ![IMG_0848](https://user-images.githubusercontent.com/96424191/160169084-9e1c6f61-fac1-420a-9ed2-186d49b0cb63.jpg)
 
