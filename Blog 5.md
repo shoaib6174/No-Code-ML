@@ -117,4 +117,44 @@ To run your experiment, select **Finish**. The **Run details** screen opens with
  
 
 ### Explore models
+Navigate to the **Models** tab to see the algorithms (models) tested. By default, the models are ordered by metric score as they complete. For this tutorial, the model that scores the highest based on the chosen **Accuracy** metric is at the top of the list.
 
+While you wait for all of the experiment models to finish, select the Algorithm name of a completed model to explore its performance details.
+
+The following navigates through the Details and the Metrics tabs to view the selected model's properties, metrics, and performance charts.
+![run-detail (1)](https://user-images.githubusercontent.com/40586752/160436305-db3a4092-c14d-46de-9cdd-fcb81d9a9448.gif)
+
+
+### Model explanations
+While you wait for the models to complete, you can also take a look at model explanations and see which data features (raw or engineered) influenced a particular model's predictions.
+
+These model explanations can be generated on demand, and are summarized in the model explanations dashboard that's part of the Explanations (preview) tab.
+
+To generate model explanations-
+
+- Select the **Models** tab.
+- Select a model
+- Select the Explain model button at the top. On the right, the Explain model pane appears.
+- Select the compute terget that you created previously. This compute cluster initiates a child run to generate the model explanations
+- Select Create at the bottom. A green success message appears towards the top of your screen.
+- Select the Explanations (preview) button. This tab populates once the explainability run completes.
+- Select the Aggregate feature importance tab on the right. This chart shows which data features influenced the predictions of the selected model.
+
+In our example gender appears to have the most influence on the predictions of this model which was true for the titanic accident as women and childern were priotized.
+![image](https://user-images.githubusercontent.com/40586752/160437753-fc5a0a43-fa9d-4717-aa90-6ad1905ce7e7.png)
+
+You can use the best model to show the outcome of your research or you can deploy it in production. 
+ To deploy a model-
+ - Select that model from **Models** to open the model-specific page.
+ - Populate the Deploy a model pane as follows: 
+     - Deployment name:	my-automl-deploy
+     - Compute type: Azure Container Instance (ACI)
+     - Enable authentication:	Disable
+     - Use custom deployments:	Disable
+- Select Deploy.
+A green success message appears at the top of the Run screen, and in the Model summary pane, a status message appears under Deploy status. Select Refresh periodically to check the deployment status. So it was that easy to deploy the model. How to consume the model as web service is beyond the scope of this blogpost. Developer will take care of that.
+
+
+## Conclusion
+
+We have reached the end of this blog series. The purpose of this blog sereis is to familiarize you with the concepts machine learning and showing you how you can build a machine learning model by yourself. We hope this blog series will help you to incroparate machine learning in your research work. 
