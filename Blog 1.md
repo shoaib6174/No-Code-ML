@@ -49,9 +49,7 @@ The Machine Learning concept is similar to how kids learn. For machine learning,
 
 ![IMG_1B8AA11720A2-1](https://user-images.githubusercontent.com/96424191/160281339-607cf81f-7132-4616-a2e4-80ee1e088994.jpeg)
 
-Machine learning is similar to children's learning. They both learn and teaching them our feedback is important but there are also differences.
-
-For example, there is no limit to what a baby can learn but machine learning models have a limit, it can only learn how to do very specific tasks, such as guess your want to hear next or recommend persons you should know on social media.
+Machine learning is similar to children's learning. They both learn and teaching them our feedback is important.
 
 Types of ML algorithms
 -
