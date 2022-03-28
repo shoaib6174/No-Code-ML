@@ -16,10 +16,10 @@ In **blogpost2**  you have seen how to create Azure account and Azure Machine Le
 Sign in to https://ml.azure.com, and select the workspace you have already created. If you haven’t checkout- 
 ***Link***
 
-## Defining the problem
+### Defining the problem
 You have to find the problem and dataset by yourself. Azure Machine Learning Designer can’t help you there. But you can use the “Sample Dataset” for practice. In this blog we will work with the famous titanic dataset. We all are familiar with the titanic incident. In the titanic dataset, we have some details of each of the passengers and whether he/she had survived. We will build a prediction model to predict if a person will survive. It’s a classification problem and we will use Multiclass Logistic Regression algorithm.
 
-## Collect The data
+### Collect The data
 Once you have selected the dataset, you have to register it in **Datasets** of AML Workspace. You will find **Datasets** in the left pane under Assets section of Azure Machine Learning Studio. After clicking Datasets, you will click **Create Dataset** and select the data source.  You can get the data from several sources. Enter your source and then fill the necessary information in the form. Here is a gif to show how you will import a dataset from your local computer-
 <p align="center">
 <img alt="Creating Dataset GIF"  width=70% src="https://user-images.githubusercontent.com/40586752/160236825-107244e7-6b54-40f8-b930-b00e99d71ce9.gif"
@@ -33,7 +33,7 @@ To know more about registering datasets please visit-
 
 https://docs.microsoft.com/en-us/azure/machine-learning/how-to-connect-data-ui?tabs=credential
 
-## Getting Started with AML Designer
+### Getting Started with AML Designer
 Now we will go into AML Designer by clicking **Designer** in the left plane.  We will get the following window-
 
 <p align="center">
@@ -50,7 +50,7 @@ You can see that there are some prebuild pipelines. You can select one of them a
 Take some time to get familiar with the environment and **Asset Library**. 
 
 
-## Import Data
+### Import Data
 To the left of the pipeline canvas is a palette of datasets and components. Select **Datasets** to view the dataset you have just registered. Select the dataset and drag it onto the canvas. It’s equivalent to importing data. 
 You can also use any dataset from **Sample Datasets**. Here is how you will do that-
 <p align="center">
@@ -63,7 +63,7 @@ You can preview the data by right clicking on the dataset component in the canva
 </p>
 
 
-## Data Processing
+### Data Processing
 AML Designer has several components for data processing. Hover your mouse pointer on each of them to know their function and you can also check documentation to Learn More.
 
 <p align="center">
@@ -115,7 +115,7 @@ Now we are done with data processing. The canvas will now look like this-
 ![upto data processing](https://user-images.githubusercontent.com/40586752/160238275-8af234a7-719e-4c58-bf7a-0791b8377a33.png)
 
 
-## Splitting Dataset
+### Splitting Dataset
 
 For splitting the dataset, you will drag-and-drop **Split Data** component from **Data Transformation** section and connect it with the left port of **Normalize Data** component. Then In the component details pane to the right of the canvas, set the **Fraction of rows in the first output dataset** to 0.7. You don’t have to select any ratio for validation set. AML Designer will do that itself while training. 
 This 0.7 option splits 70 percent of the data to train the model and 30 percent for testing it. The 70 percent dataset will be accessible through the left output port. The remaining data will be available through the right output port.
@@ -123,7 +123,7 @@ This 0.7 option splits 70 percent of the data to train the model and 30 percent 
 ![split data](https://user-images.githubusercontent.com/40586752/160238279-16ae14ca-73b7-4033-a724-af9a170fbc7b.png)
 
 
-## Model Selection and Training
+### Model Selection and Training
 AML Designer has some built in algorithms for you. In the component palette, expand **Machine Learning Algorithms**. This option displays several categories of components that you can use to initialize learning algorithms. You will select the algorithms that’s best suited for your problem. Our example is a classification problem. So we have chosen **Multiclass Logistic Regression** from **Classification Categories** of **Machine Learning Algorithms** section and dragged it onto the canvas. 
 Now for training the model-
 -	Drag-and-drop the **Train Model** component from **Module Training** section
@@ -138,7 +138,7 @@ Now you will select the label column as it is a supervised learning-
  For our example, we have entered **Survived**. Now click **Save**.
  
 
-## Evaluate Model
+### Evaluate Model
 For evaluating the model, you have to check how your model has done on the test dataset. For that, at first you have to score your model using **Score Model ** component. 
 -	Drag-and-drop **Train Model** component from **Model Training**  section onto the canvas below **Train Model**. 
 -	Connect the output of the **Train Model** component to the left input port of **Score Model**. 
@@ -146,7 +146,7 @@ For evaluating the model, you have to check how your model has done on the test 
 Now to get the evaluation metrics, find the **Evaluate Model** component and drag the component to the pipeline canvas. Connect the output of the **Score Model** component to the left input of **Evaluate Model**. The final pipeline should look something like this-
  
 
-## Submitting The Pipeline
+### Submitting The Pipeline
 A pipeline runs on a compute target, which is a compute resource that's attached to your workspace. Before submitting the pipeline you have to specify compute target. For that- 
 -	Next to the pipeline name, select the **Gear icon** at the top of the canvas to open the **Settings** pane.
 -	In the **Settings** pane to the right of the canvas, select **Select compute target**.
@@ -158,14 +158,14 @@ It will take some time to create the compute target. Once the compute target is 
  
 It will take few minutes for the pipeline to finish running. You can view run status and details at the top right of the canvas.
 
-## View scored labels
+### View scored labels
 
 After the run completes, you can view the results of the pipeline run. First, look at the predictions generated by the classification  model.
 Right-click the **Score Model ** component and select **Preview data** > **Scored dataset** to view its output.
 Here the Scored Labels column represents the prediction of the model for each row of the test dataset-
  
 
-## Evaluate models
+### Evaluate models
 
 Use the **Evaluate Model** to see how well the trained model performed on the test dataset.
 Right-click the **Evaluate Model** component and select **Preview data** > **Evaluation results** to view its output.
