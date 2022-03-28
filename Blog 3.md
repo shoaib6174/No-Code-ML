@@ -67,3 +67,47 @@ For Students who have an Education Email, they can get the Azure Student credits
 #### Get it from GitHub Student Pack
 For students who don’t have an Education Email, they can get the Azure student credits from GitHub Student Pack by using an ID card and GitHub Account.
 Here is a step-by-step guide of how to [Apply for a student developer pack](https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/use-github-for-your-schoolwork/apply-for-a-student-developer-pack)
+
+
+## Create a workspace
+An Azure Machine Learning workspace is a foundational resource in the cloud that you use to experiment, train, and deploy machine learning models. It's needed to work with **Azure Machine Learning Designer** and **Azure AutoML**. It ties your Azure subscription and resource group to an easily consumed object in the service. Now let's see how to create it.
+
+
+Once you have got your subscription-
+
+- Sign in to https://portal.azure.com by using the credentials for your Azure subscription.
+
+
+- In the upper-left corner of the Azure portal, select the three bars, then **+ Create a resource**.
+
+![Create a resource.](https://user-images.githubusercontent.com/40586752/160423868-6968ac9a-861a-46d9-8e87-d1d09101fc48.png)
+
+
+- Use the search bar to find **Machine Learning**.
+
+- Select **Machine Learning**.
+
+
+- In the Machine Learning pane, select **Create** to begin.
+![image](https://user-images.githubusercontent.com/40586752/160424640-5911cc7f-f909-4b8a-b452-307c91b043cc.png)
+
+- In the **Basics** of **Create a machine learning workspace** form select your subscription from **Subscription** drop-down menu
+- Select **Create new** to create a new **Resource Group** . Then provide a name for your resource group. We entered "NoCodeML**. Then select **OK**.
+- Enter **Workspace Name**, **Region**
+- For **Storage Account** select **Create new**. In the **Create new storage account** from enter **Name** and select 
+**Locally-redundant storage (LRS)** from **Replication** drop-down menu. Select **Save**.
+
+- For **Key Value** and **Application insights** select **Create new**. Then in the form enter **Name** of your choice and select **Save**.
+- For **Container registry** select **Create new** and enter **Name** in the form. Select **Basic** from **SKU** drop-down menu. Select **Save** 
+
+The **Basics** form will now look like this- 
+![Create ML Workspace](https://user-images.githubusercontent.com/40586752/160427739-70fd6e07-69ed-4282-823a-f8884895af63.png)
+
+
+- Select **Review + Create** to create the workspace. Once the validation is passed, select **Create**.
+
+It can take several minutes to create your workspace in the cloud. When the process is finished, a deployment success message appears.
+
+To view the new workspace, select Go to resource. From the portal view of your workspace, select Launch studio to go to the Azure Machine Learning studio.
+
+Now you are ready for working with **Azure Machine Learning Designer** and **Azure AutoML**. 
