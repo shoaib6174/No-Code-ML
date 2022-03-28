@@ -13,7 +13,7 @@ Now let’s see who the intended audience for this blog series are-
 In this blog series we won’t cover everything about Machine Learning. You will provide you a very basic introduction of machine learning so that people with no prior knowledge can follow the rest of the blog series. But we will provide links of resources for further learning. Let’s have a look at the structure of this blog series-
 -	**Blog 1:**  Introduction to Machine Learning
 -	**Blog 2:** Steps of a Machine Learning Project 
--	**Blog 3:** How to get started with Azure Machine Learning
+-	**Blog 3:** Getting started with Azure Machine Learning
 -	**Blog 4:** Azure Machine Learning Designer
 -	**Blog 5:** Azure AutoML 
 
