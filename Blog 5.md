@@ -69,7 +69,7 @@ In the **Configure Run** form-
 -	Select **Create new** under **Experiment name**
 -	Enter ‘TitanicSurvialPrediction’ as **New experiment name**
 -	Select **Servived** from the **Target column** drop-down menu.
--	Select **Compute Instance* from **Select compute type** drop-down
+-	Select **Compute Instance** from **Select compute type** drop-down
  <p align='center'>    <kbd> <img alt='Configure Run'  width=70% src='https://user-images.githubusercontent.com/40586752/160261618-e671e17b-bae6-4a46-b4fb-d04698b09b45.png' > </kbd>  </p>
 
 -	Select **+ New** to create a new compute instance
@@ -80,7 +80,7 @@ In the **Configure Run** form-
 
 
 ### Select task and settings
-Here you have to select the task type for the experiment and additional configuration and featurization settings. Our task is a classification task, so select **Classification** in the ** Select task and settings** form. Now you can click **Next** but we want to play with and additional configuration and featurization settings.
+Here you have to select the task type for the experiment and additional configuration and featurization settings. Our task is a classification task, so select **Classification** in the **Select task and settings** form. Now you can click **Next** but we want to play with and additional configuration and featurization settings.
 
 <p align='center'>    <kbd> <img alt='Select task and settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261626-22086ae5-0bd0-4361-a11c-abaafbfc84a7.png'> </kbd>  </p>
 
@@ -94,16 +94,16 @@ Here you have to select the task type for the experiment and additional configur
 -	Click **Save**
 
 
-In additional configuration. we can change Primary Metric**, select allowed or blocked models and set **exit criterion**.
+In additional configuration. we can change **Primary Metric**, select allowed or blocked models and set **Exit criterion**.
 -	Select **View additional configuration settings**
 -	Select **Accuracy** as primary metric from **Primary Metric**
 -	Unselect **Use all supported models**
--	In *Allowed models’, we can select the models we want to try. We have selected Logistic Regression, Decision Tree, XGBBoostClassifier, KNN, SVM.
+-	In **Allowed models**, we can select the models we want to try. We have selected Logistic Regression, Decision Tree, XGBBoostClassifier, KNN, SVM.
 -	In **Exit criterion** set ** Training job time (hours)** to **0.5** and ** Metric score threshold** to **0.95**. Its important to select **Exit Criterion** so that the experiment doesn’t run for a very long time.
  <p align='center'>    <kbd> <img alt='additional configuration settings'  width=70% src='https://user-images.githubusercontent.com/40586752/160261638-c52ae1f1-16e5-4664-b8f0-dc839d46266d.png' > </kbd>  </p>
 
 -	Select **Save**
--	Select **Next** from ** Select task and settings** form.
+-	Select **Next** from **Select task and settings** form.
 
 
 ### Validate and Test
