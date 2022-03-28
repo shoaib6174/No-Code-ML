@@ -1,5 +1,5 @@
 # Azure Machine Learning Designer
-In the previous blog you have seen the steps involved in ML projects. In this blog you will learn about Azure Machine Learning Designer 
+In the 2nd blog you have seen the steps involved in ML projects. In this blog you will learn about Azure Machine Learning Designer 
 
 Azure Machine Learning designer is a drag-and-drop interface used to train and deploy models in Azure Machine Learning. It has built-in modules/components for each of the steps mentioned in the previous blog. You can think of these components as LEGO blocks. You will drag the necessary components from the list of components and drop them on a blank canvas. Then you will arrange them in sequence by connecting the output port of one component to an input port of another. This sequence of componenets is called a pipeline. It will look like this- 
 <p align="center">
