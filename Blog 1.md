@@ -69,7 +69,7 @@ Furthermore, Supervised Learning can be divided into two subcategories.
 
 Regression is an algorithm that is used to find relationships between two or more values such as independent and dependent valuable. The output of this algorithm will be a real number or continuous value. Examples of problems that you can use regression to resolve are predicted stock prices, the age of the person, or even the chance of rain.
 
-For Regression, it can be divided into the following types:
+Here are some regressin algorithms:
 - Linear Regression 
 - Neural Network Regression
 - Support Network Regression
@@ -77,6 +77,8 @@ For Regression, it can be divided into the following types:
 - Decision Tree Regression
 - Lasso Regression
 - Ridge Regression
+
+To learn more please visit: https://www.analyticsvidhya.com/blog/2021/05/5-regression-algorithms-you-should-know-introductory-guide/
 
 1.2 Classification
 
@@ -93,7 +95,7 @@ For classification, it can be divided into the following types:
 
 The terms "regression" and "classification" are not interchangeable. First, we will predict a continuous quantity for linear regression, but a discrete class label for classification. The outputs differ as well; the result of linear regression is a value, whereas the result of classification is a non-value output, such as yes or no dog or cat.
 
-Learn more: https://www.sciencedirect.com/topics/computer-science/supervised-learning
+Learn more: https://www.analyticsvidhya.com/blog/2021/09/a-complete-guide-to-understand-classification-in-machine-learning/
 
 2.2 Unsupervised Learning 
 		
@@ -113,7 +115,7 @@ The model in this algorithm will learn from feedback.
 	
 It's as if you took a photo of a chihuahua and a muffin and used it to teach a model to recognize chihuahuas and muffins. If you show the machine a snapshot of the muffin with the model saying "it's Chihuahua" and give it negative feedback, the system will learn from it and increase its accuracy. Finally, it can distinguish between chihuahuas and muffins in the image.
 	
-Learn more: https://www.coursera.org/specializations/reinforcement-learning
+Learn more: https://www.ibm.com/cloud/learn/unsupervised-learning
 
 A regression model with parameters
 -
