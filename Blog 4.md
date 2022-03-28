@@ -140,7 +140,7 @@ Now you will select the label column as it is a supervised learning-
  
 
 ### Evaluate Model
-For evaluating the model, you have to check how your model has done on the test dataset. For that, at first you have to score your model using **Score Model ** component. 
+For evaluating the model, you have to check how your model has done on the test dataset. For that, at first you have to score your model using **Score Model** component. 
 -	Drag-and-drop **Train Model** component from **Model Training**  section onto the canvas below **Train Model**. 
 -	Connect the output of the **Train Model** component to the left input port of **Score Model**. 
 -	Connect the test data output (right port) of the **Split Data** component to the right input port of **Score Model**.
