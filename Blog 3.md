@@ -109,5 +109,6 @@ The **Basics** form will now look like this-
 It can take several minutes to create your workspace in the cloud. When the process is finished, a deployment success message appears.
 
 To view the new workspace, select Go to resource. From the portal view of your workspace, select Launch studio to go to the Azure Machine Learning studio.
+![Azure Machine Learning Studio](https://user-images.githubusercontent.com/40586752/160430152-64fa7ff4-cedc-4d56-b9fb-cd1d993d56ea.png)
 
 Now you are ready for working with **Azure Machine Learning Designer** and **Azure AutoML**. 
