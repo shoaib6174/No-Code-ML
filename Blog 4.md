@@ -73,7 +73,7 @@ AML Designer has several components for data processing. Hover your mouse pointe
 For our example, at first, we will use **Select Columns in Dataset** component. 
 -	Drag the **Select Columns in Dataset** component onto the canvas. Drop the component below the dataset component.
 -	Connect the **Titanic** dataset to the **Select Columns in Dataset** component. Drag from the dataset's output port, which is the small circle at the bottom of the dataset on the canvas, to the input port of **Select Columns in Dataset**, which is the small circle at the top of the component.
--	
+
 <p align="center">
 <img alt="Connecting Components"   src="https://user-images.githubusercontent.com/40586752/160237625-4105b27c-2e07-4225-a635-c3a0a838d6f7.gif">
 </p>
@@ -106,6 +106,7 @@ You can use the **Clean Missing Data ** component multiple times to add differen
 -	Drag the **Normalize Data** component to the pipeline canvas. 
 -	Connect it to the output of **Clean Missing Data** component. 
 -	Then in the component details tab select **Transformation method** and **Columns to transform**. 
+
 For our example, we have selected **MinMax** as **Transformation method** and used in on **Age** column.
  
  ![normalize data](https://user-images.githubusercontent.com/40586752/160238254-91a22cec-f905-497a-a5b4-7430455b30c9.png)
