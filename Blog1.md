@@ -27,32 +27,31 @@ That’s the What, Why and For Whom of this blog series, let’s get started wit
 ## Introduction to Machine Learning (ML)
 
 ### What is ML 
+Machine learning is a subset of Artificial intelligence, it has applied statistics and computer science together to create computer programs that can make predictions or analyze the pattern or trends in the data instead of being explicitly programmed to do so.
 
-Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a computer program to learn and improve from data or experience.
-
-Machine learning is different from traditional program. 
-
-In traditional program, we have to put data and program into computer then it will produce an ouput, but in machine learning we put data and output(result) into computer, in order to create a program which can predict the output if they receive this kind of input.
-
-I will give you some example that will help you more understand. 
+and here's an example to help you better understand what machine learning is.
 
 Example:
 
-Imagine that you are a teacher and a computer program is a kid and you want them to learn about fruits by using flashcards. Each flashcard has a picture of a lemon or apple on them.
+Let's say you are a teacher. Your mission today is to teach children to tell which apple is and which one is a lemon using flashcards, 
+in each flashcard used There will be pictures of different apples and lemons.
 
-Now you teach them which one is apple and which one is lemon, the kids will learn about these two fruits by observing and remembering their attributes like color, size or shape then you shuffle the deck of lemon and apple photos after that you choose a card from the deck, it's a picture of lemon and ask them "What is on the card" but the kids said it was an apple. You know that's not the correct answer so you give them negative feedback and start to teach them again.
+Then we started teaching the children by showing a flashcard to see which picture is a lemon and which is an apple. Each time we tell the children Children will begin to observe the attributes of the two objects like their shape, color, or appearance, and start to memorize them.
 
-After repeating these processes, teach/ try / give feedback, the kid gives you more accurate answer, and they are able to classify lemon and apple.
+After we give the children learned and observed all the images. We will then select an image that is not in the deck of flashcards and try asking the children What it is.
+
+Children will try to notice this new picture. and try to match the information in their memory and try to answer the question then you give them feedback about their answer. If it is correct they will learn and remember that's correct and use it for the next picture but if it is not, you will teach them again until there is the correct answer.
 
 ![IMG_80CB1B6EC584-1](https://user-images.githubusercontent.com/96424191/160280866-61026af9-7acd-40ef-9ae1-0fb72c3bdee5.jpeg)
 
-Machine Learning concept is similar to how kids learn. For machine learning, we have to give input data to the model (like Attribute of lemon and apple ) then it will turn these data into set of number or machine language (like kid's memory) we call these sets of number "Features" and we will give them the correct answer by entering these answer in the numbers, we call these numbers "Lable". 
 
-After these processes, we will train the model, so the computer can distinguish cats and dogs according to their features.
-
+The Machine Learning concept is similar to how kids learn. For machine learning, we have to give Training data to the model (like the picture of lemons and apples ) then it will turn these data into numerical data (like a kid's memory) we call these sets of numbers "Features" and we will give them the correct answer by entering these answer in the numbers, we call its "Lable". After we train the model by using these steps, we will give it the inputs which we want them to be predicted to the model then check if the answer is correct or not If not start to retrain it again to make the answer more accurate.
 
 ![IMG_1B8AA11720A2-1](https://user-images.githubusercontent.com/96424191/160281339-607cf81f-7132-4616-a2e4-80ee1e088994.jpeg)
 
+Machine learning is similar to children's learning. They both learn and teaching them our feedback is important but there are also differences.
+
+For example, there is no limit to what a baby can learn but machine learning models have a limit, it can only learn how to do very specific tasks, such as guess your want to hear next or recommend persons you should know on social media.
 
 Types of ML algorithms
 -
@@ -60,31 +59,31 @@ There are three main machine learning algorithms.
 
 1. Supervised Learning 
 		
-For this algorithm, the model will learn from the data that we gave.
-		
+In this type of machine learning, We have to give data and results to the program to learn and then create a prediction model.
+
 For example, you’re the developer who wants to build a machine learning model that will predict types of drinks using color. 
 There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orange.
 From these data, Color will be the feature, and Types of drinks will be the label.
 The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it to be Drink A. 
 
-Furthermore, Supervised Learning can be devided into two sub categories.
+Furthermore, Supervised Learning can be divided into two subcategories.
 
 1.1 Regression
 
-Regression is an algorithm which is used to find relationship between two or more values such as independent and dependent valuable. The output of this algorithm will be real number or continuous value. The examples of problems that you can use regression to resolve are predict stock prices, age of person or even chance of raining.
+Regression is an algorithm that is used to find relationships between two or more values such as independent and dependent valuable. The output of this algorithm will be a real number or continuous value. Examples of problems that you can use regression to resolve are predicted stock prices, the age of the person, or even the chance of rain.
 
 For Regression, it can be divided into the following types:
 - Linear Regression 
 - Neural Network Regression
 - Support Network Regression
-- Support vector Regression
+- Support Vector Regression
 - Decision Tree Regression
 - Lasso Regression
 - Ridge Regression
 
 1.2 Classification
 
-Classification is an algorithm that allows the model to learn from the given dataset or observation. It must draw a conclusion from the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
+Classification is an algorithm that allows the model to learn from the given dataset or observation. It must conclude the observed value and identify which category that value belongs to. This type of algorithm will be used to predict discrete values like Yes or No, Spam email or Not.
 
 For classification, it can be divided into the following types:
 - Naïve Bayes
@@ -101,11 +100,13 @@ Learn more: https://www.sciencedirect.com/topics/computer-science/supervised-lea
 
 2.2 Unsupervised Learning 
 		
-The model in this algorithm will learn from patterns. 
-	
-This type of method will enable the model to detect data patterns on its own.
+For type of algorithm, the model will find patterns from input data and cluster them without labels. 
+
+Examples of common applications of this algorithm are A film classification program, a program that can be grouped by the height and weight of the students in the school.
+
+This's an example to make you more understand.
 		
-If you have data on student grades and hours of study, you can enter it into the model, which will work, and then turn it into a graph, 	with the x-axis and y-axis representing hours of study and grades, respectively. Each student's data will be plotted into the graph, and you will 	notice that there are clusters of data, which we can interpret. First, students with a high study hour tend to earn a good mark, whereas those with a 	lesser study hour tend to get a poorer grade.	
+If you have data on student grades and hours of study, you can enter it into the model, which will work, and then turn it into a graph, 	with the x-axis and y-axis representing hours of study and grades, respectively. Each student's data will be plotted into the graph, and you will notice that there are clusters of data, which we can interpret. First, students with high study hours tend to earn good marks, whereas those with lesser study hours tend to get poorer grades.	
 		
 Learn more: https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
 
@@ -113,37 +114,39 @@ Learn more: https://towardsdatascience.com/unsupervised-learning-and-data-cluste
 	
 The model in this algorithm will learn from feedback.
 	
-It's as if you took a photo of a chihuahua and a muffin and used it to teach a model to recognize chihuahuas and muffins. If you show the machine a snapshot of the muffin with the model saying "it's Chihuahua" and give it negative feedback, the system will learn from it and increase its accuracy. Finally, it can distinguish between chihuahua and muffin in the image.
+It's as if you took a photo of a chihuahua and a muffin and used it to teach a model to recognize chihuahuas and muffins. If you show the machine a snapshot of the muffin with the model saying "it's Chihuahua" and give it negative feedback, the system will learn from it and increase its accuracy. Finally, it can distinguish between chihuahuas and muffins in the image.
 	
 Learn more: https://www.coursera.org/specializations/reinforcement-learning
 
-Regression model with parameters
+A regression model with parameters
 -
 
 Linear regression
 
-Linear Regression is the simplest form of machine learning algorithm. It analysis an independent variable which relate to independent value (y) and dependent value (x). The line which is showed in the graph is best fit line. The point of this algorithm is to find the relationship between independent and dependent value for continuous or numeric variables such as ages, price.
+Linear Regression is the simplest form of the machine learning algorithm. It analysis an independent variable that relates to independent value (y) and dependent value (x). The line which is shown in the graph is a best-fit line. The point of this algorithm is to find the relationship between independent and dependent values for continuous or numeric variables such as ages, price.
 
 ![IMG_0848](https://user-images.githubusercontent.com/96424191/160169084-9e1c6f61-fac1-420a-9ed2-186d49b0cb63.jpg)
 
-As shown in the diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph and draw a line, then we will measure the distances between each point and our line then sum it up, our Regression line will be the one that has shortest distance.
+As shown in the diagram, data for shirt size (x-axis, independent value) and shirt price (y-axis, dependent value) are plotted onto a graph and draw a line, then we will measure the distances between each point and our line then sum it up, our Regression line will be the one that has the shortest distance.
 
 Classification model with parameters
 -
 
 K-Nearest Neighbour
 
-K-Nearest Neighbour is a simple algorithm which is used to classify data. Its concept is just like "The similar thing will be close to each other". This is the example that will help you more understand. 
+K-Nearest Neighbour is a simple algorithm that is used to classify data. Its concept is just like "The similar thing will be close to each other". This is the example that will help you more understand. 
 
-For example, you have three groups of data on the graph then there are new point add to the graph, we have to find out that which one of these three group is our new point should be with. So, we have to find k nearest neighbour of the point.
+For example, you have three groups of data on the graph then there is a new point added to the graph, we have to find out which one of these three groups is our new point should be with. So, we have to find k nearest neighbor of the point.
 
 ![IMG_599E95E65959-1](https://user-images.githubusercontent.com/96424191/160191365-a5969eb6-4b01-466b-9ef6-160b0449d11e.jpeg)
 
-To find the k value, first we have to calculate the distances between our given point and other points then sort the distance from the nearest to the furthest. 
+To find the k value, first, we have to calculate the distances between our given point and other points then sort the distance from the nearest to the furthest. 
 
 ![IMG_910C889AE8A6-1](https://user-images.githubusercontent.com/96424191/160191463-47bab16f-404d-45cc-b28d-bfffce3c2d1d.jpeg)
 
-After sorting these values, we will assign our new point to the class that most common among k nearest neighbor. Amount of k value also affect the model, smaller k value cause lower bias and higher variance and overfitting but larger k value casue higher bias, lower variance and underfitting. So, you should choose the k value that keep balance between large and small k value.
+After sorting these values, we will assign our new point to the class that is most common among k nearest neighbors. The amount of the k value also affects the model, a smaller k value causes lower bias and higher variance and overfitting but a larger k value causes higher bias, lower variance, and underfitting. So, you should choose the k value that keeps the balance between the large and small k value.
 
 ![IMG_86B58E3A3F4E-1](https://user-images.githubusercontent.com/96424191/160191992-26b2b498-3207-434f-bb18-441233016143.jpeg)
+![image](https://user-images.githubusercontent.com/96424191/160385289-2064a828-046a-4e4c-9c94-91b2a144b8b3.png)
+
 
