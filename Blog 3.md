@@ -1,8 +1,8 @@
 # Steps of a Machine Learning Project
 
-This blogpost describes steps involved in a standard machine learning project. Before you know how to build a machine learning model without any code you should know about these steps.
+In the previous blog post you have learnt about the basics of ML and some common algorithms. In This blogpost we will talk about the steps involved in a standard machine learning project. After reading this you will get an idea about how to develop a ML project.
 
-A typical machine learning project has 7 steps. 
+A typical machine learning project has 7 steps-
 1.	Defining the problem
 2.	Collecting the data
 3.	Preprocessing the data
@@ -93,8 +93,7 @@ If you have built the model to use in production, then you will have to deploy t
 If the model has been trained for research purposes, then you could show the result of validation set to demonstrate how machine learning in performing to solve that problem.
 
 
-These are the steps of a standard machine learning project. In traditional setup, you had to write codes to in all the steps after collecting the data. But in this blog series we will show you how you can complete a machine learning project without writing any code. Bear with us. 
-
+These are the steps of a standard machine learning project. In traditional setup, you had to write codes in all the steps after collecting the data. But in this blog series we will show you how you can complete a machine learning project without writing any code. But before that you have to know about **Azure** and **Azure Machine Learning**. Bear with us. 
 
  
 
