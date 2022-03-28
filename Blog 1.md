@@ -49,20 +49,19 @@ The Machine Learning concept is similar to how kids learn. For machine learning,
 
 ![IMG_1B8AA11720A2-1](https://user-images.githubusercontent.com/96424191/160281339-607cf81f-7132-4616-a2e4-80ee1e088994.jpeg)
 
-Machine learning is similar to children's learning. They both learn and teaching them our feedback is important.
+Machine learning is similar to children's learning. They both learn and teaching them our feedback is important. To learn more-
+https://www.mygreatlearning.com/blog/what-is-machine-learning/
 
 Types of ML algorithms
 -
 There are three main machine learning algorithms.
 
+
 1. Supervised Learning 
 		
-In this type of machine learning, We have to give data and results to the program to learn and then create a prediction model.
+In this type of machine learning algorithms,  labeled datasets are used to train algorithms that to classify data or predict outcomes accurately.
 
-For example, you’re the developer who wants to build a machine learning model that will predict types of drinks using color. 
-There are 3 types of drinks. Drink A is Blue, Drink B is Green, Drink C is Orange.
-From these data, Color will be the feature, and Types of drinks will be the label.
-The model will use features associated with labels to predict the types of drinks. Next time, if there is a blue drink, the model will predict it to be Drink A. 
+Supervised learning uses a training set to teach models to yield the desired output. This training dataset includes inputs and correct outputs, which allow the model to learn over time. The algorithm measures its accuracy through the loss function, adjusting until the error has been sufficiently minimized.
 
 Furthermore, Supervised Learning can be divided into two subcategories.
 
