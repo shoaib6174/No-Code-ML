@@ -146,6 +146,6 @@ To find the k value, first, we have to calculate the distances between our given
 After sorting these values, we will assign our new point to the class that is most common among k nearest neighbors. The amount of the k value also affects the model, a smaller k value causes lower bias and higher variance and overfitting but a larger k value causes higher bias, lower variance, and underfitting. So, you should choose the k value that keeps the balance between the large and small k value.
 
 ![IMG_86B58E3A3F4E-1](https://user-images.githubusercontent.com/96424191/160191992-26b2b498-3207-434f-bb18-441233016143.jpeg)
-![image](https://user-images.githubusercontent.com/96424191/160385289-2064a828-046a-4e4c-9c94-91b2a144b8b3.png)
+
 
 
