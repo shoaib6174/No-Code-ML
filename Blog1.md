@@ -1,29 +1,32 @@
-Blog 1: Introduction 
--
-Importance of ML with application 
--
+# No Code Machine Learning
 
-Machine learning makes life more easier because machine learning has helped us to solve many problems. whether in everyday life as well as national problems for more understanding Let me give you an example of the importance of applying machine learning. 
+At present, we are witnessing an explosion of works that develop and apply machine learning (ML). It’s not just limited to computer science or statistics, researchers from almost every sector including social science, chemistry, archaeology, healthcare, agriculture, fashion, marketing, sports and even artists are testing ML’s capabilities. 
+A common struggle for many of them is they don’t know how to code. Researchers from computer science saw this issue and they have come up with ways to apply machine learning without writing any code.  No code Machine learning is easy to understand, efficient, simple, and accessible even without programming experience. No code machine learning has many advantages including taking less time to build a model, lower project costs, easier to maintenance.
 
-Starting with general problem, if you look back to 5 years ago. In your email box there will be many spam e-mails contain viruses and ready to steal our data at any time. But for now, if we go check our email trash. we will see that are spam e-mails in it and we will find there are few spam email in our main inbox. This is the result of using machine learning to classify spam e-mails from General e-mail. It makes us more secure to use the Internet to send and receive important messages.
+In this blog series we will introduce such two technologies to you- **Azure Machine Learning Designer** and **Azure Automated Machine Learning (Azure AutoML)**. Both are Azure cloud-based software as a service (SaaS). As they are cloud-based SaaS service, you don’t have to worry about hardware, operating environment, or software packages and there is also no need of coding. So as a researcher you will be able to put 100% of your focus on the problem.
 
-For the larger scale of problem, we can use machine learning to predict disease outbreaks. It uses past and current epidemic data to predict the direction and pattern of infection. For example, Alibaba chinese e-commerce has developed machine learning to detect 95% of the corona virus.
+Now let’s see who the intended audience for this blog series are- 
+-	Students/Researchers with no coding experience and low/no machine learning knowledge 
+-	Students/Researchers who knows how to code but don’t want to spend their time coding
 
-Now we know the benefits of machine learning, Why don't we start studying and apply machine learning to make the world better?
 
-Why do we need no code ML?
--
-Machine learning is prevalent now, there are needs to apply it as well. whether in business or even in research and there are many people who want to use machine learning for thier research or thier buisiness but they have no programming experience at all. We recognize these issues and writes this blog as a guide to one of the ways to access Machine Learning without coding or what we call "No code Machine Learning".
+In this blog series we won’t cover everything about Machine Learning. You will provide you a very basic introduction of machine learning so that people with no prior knowledge can follow the rest of the blog series. But we will provide links of resources for further learning. Let’s have a look at the structure of this blog series-
+-	**Blog 1:**  Introduction to Machine Learning
+-	**Blog 2:** Steps of a Machine Learning Project 
+-	**Blog 3:** How to get started with Azure Machine Learning
+-	**Blog 4:** Azure Machine Learning Designer
+-	**Blog 5:** Azure AutoML 
 
-No code Machine learning is easy to understand, simple, and accessible even without programming experience. No code machine learning has many advantages including taking less time to build a model, lower your project costs, easier to maintanace. 
+Now let’s see what you will gain from this blog series-
+-	An understanding of how to design a machine learning project
+-	Ability to use **Azure Machine Learning Designer** and **Azure AutoML** to build ML models. 
 
-In this blog, you will learn about machine learning fundamentals including what machine learning is, how it works, machine learnign's basic algorithms, and how to apply machine learning in your projects without coding. Furthurmore, we also provide resources to help you to learn more about Machine Learning.
 
-Why this blog series and the Structure of the series 
--
+That’s the What, Why and For Whom of this blog series, let’s get started with it-
 
-What is ML 
--
+## Introduction to Machine Learning (ML)
+
+### What is ML 
 
 Machine Learning (ML) is a subset of Artificial Intelligence (AI). It allows a computer program to learn and improve from data or experience.
 
