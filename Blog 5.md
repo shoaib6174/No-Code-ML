@@ -146,14 +146,25 @@ In our example gender appears to have the most influence on the predictions of t
 You can use the best model to show the outcome of your research or you can deploy it in production. 
  To deploy a model-
  - Select that model from **Models** to open the model-specific page.
+ - Select the Deploy menu in the top-left and select **Deploy to web service**.
  - Populate the Deploy a model pane as follows: 
      - Deployment name:	my-automl-deploy
      - Compute type: Azure Container Instance (ACI)
      - Enable authentication:	Disable
      - Use custom deployments:	Disable
 - Select Deploy.
+
+
 A green success message appears at the top of the Run screen, and in the Model summary pane, a status message appears under Deploy status. Select Refresh periodically to check the deployment status. So it was that easy to deploy the model. How to consume the model as web service is beyond the scope of this blogpost. Developer will take care of that.
 
+Don't forget to delete or stop the resoucrces you created  so you don't incur any charges. 
+You can go to **Compute** from left pane of **Azure Machine Learning Studio** and stop the compute instance. 
+
+If you want to delete the associated **Resource Groups**- 
+
+- In the Azure portal, select Resource groups on the far left.
+- From the list, select the resource group that you created.
+- Select Delete resource group.
 
 ## Conclusion
 
