@@ -1,6 +1,6 @@
 # No Code Machine Learning
 
-This blog series demonstrate how researchers and students with no coding experience can you machine learning in their projects using **Azure Machine Learning Desinger** and **Azure Automated Machine Learning (AutoML)**.
+This blog series demonstrate how researchers and students with no coding experience can use machine learning in their projects using **Azure Machine Learning Desinger** and **Azure Automated Machine Learning (AutoML)**.
 
 The structure of this blog series-
 
